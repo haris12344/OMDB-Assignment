@@ -9,7 +9,7 @@ function App() {
   let [loader,setLoader] = useState(false)
   function movieHandler(){
     let inp = movieInput.current.value.trim();
-    let api = 'http://www.omdbapi.com/?apikey=b11fba2e&t='
+    let api = 'https://www.omdbapi.com/?apikey=b11fba2e&t='
     let result = api + inp;
     setLoader(true);
     axios.get(result).then((mov)=>{
