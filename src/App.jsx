@@ -1,6 +1,6 @@
 import { useRef, useState } from "react"
 import axios from 'axios';
-import Intro from "./intro";
+import Intro from "./Intro";
 import NoMovie from "./NoMovie";
 function App() {
   let movieInput = useRef();
